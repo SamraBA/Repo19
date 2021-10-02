@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { Component } from 'react';
+
 
 class App extends Component {
   render() {
@@ -9,8 +9,8 @@ class App extends Component {
     <div className="App">
     <h1>Hello, React!</h1>
     </div>
-  ) 
+  );
   }
 }
 
-ReactDOM.render(<App/>, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
